@@ -26,6 +26,8 @@ def client_session_dep(request: Request) -> ClientSession:
 async def root(
     client_session: ClientSession = Depends(client_session_dep),
 ) -> str:
+
+    Implementing OpenTelemetry Metrics in Python Apps
     async with client_session.get(
         "https://example.com/", raise_for_status=True
     ) as the_response:
