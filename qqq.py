@@ -32,3 +32,6 @@ async def root(
         "https://example.com/", raise_for_status=True
     ) as the_response:
         return await the_response.text()
+
+
+Implementing OpenTelemetry Metrics in Python Apps
