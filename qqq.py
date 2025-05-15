@@ -38,3 +38,5 @@ Implementing OpenTelemetry Metrics in Python Apps
 
 
 https://github.com/blueswen/fastapi-observability
+
+https://signoz.io/docs/userguide/send-metrics-cloud/
