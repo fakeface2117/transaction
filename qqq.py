@@ -35,3 +35,6 @@ async def root(
 
 
 Implementing OpenTelemetry Metrics in Python Apps
+
+
+https://github.com/blueswen/fastapi-observability
